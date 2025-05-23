@@ -1,0 +1,66 @@
+.footer {
+  background-color: #1e1e2f; // dark background color
+  color: #ffffff; // white text color
+  padding: 0.3rem 0; // Verminder de ruimte boven en onder de footer
+  text-align: center;
+  margin: -8px;
+
+  // Voeg een container toe om de inhoud te centreren
+  .footer-content {
+    max-width: 1000px; // Maximale breedte van de footer
+    margin: 0 auto; // Centreert de inhoud
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; // Ruimte tussen de items
+    align-items: center;
+
+    // Styling voor de footer-logo
+    .footer-logo {
+      font-size: 1.3rem; // Kleinere tekstgrootte
+      font-weight: bold;
+      font-family: 'Rock Salt', cursive; // uses the Rock Salt font for the title
+      margin: 0; // Verwijder extra marges
+    }
+
+    // Styling voor de footer-links
+    .footer-links {
+      display: flex;
+      gap: 1rem; // Voeg ruimte toe tussen de links
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 0.9rem; // Kleinere tekstgrootte
+        transition: color 0.3s ease;
+        margin-left: -5%;
+
+        &:hover {
+          color: #4caf50; // green color on hover
+        }
+      }
+    }
+
+    // Styling voor de footer-socials
+    .footer-socials {
+      display: flex;
+      gap: 0.5rem; // Verminder de ruimte tussen de sociale media-iconen
+
+      a {
+        color: #ffffff;
+        font-size: 1rem; // Kleinere iconen
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #4caf50; // green color on hover
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem; // Kleinere tekstgrootte
+    border-top: 1px solid #444; // subtle border on top
+    margin-top: 0.3rem; // Verminder de ruimte boven de tekst
+    padding-top: 0.3rem; // Verminder de padding boven de tekst
+  }
+}

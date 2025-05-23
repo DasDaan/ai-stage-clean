@@ -1,0 +1,53 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iansui&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<div class="contact-page">
+    <div class="background"></div> <!-- Background image -->
+    <div class="contact-container">
+      <div class="contact-header">
+        <h1>AI Stage</h1>
+      </div>
+  
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Contact us!</h2>
+          <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+            <div class="form-group">
+              <input type="text" id="first-name" placeholder="First name" required [(ngModel)]="formData.first_name" name="first_name" />
+            </div>
+            <div class="form-group">
+              <input type="text" id="last-name" placeholder="Last name" required [(ngModel)]="formData.last_name" name="last_name" />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Email" required [(ngModel)]="formData.email" name="email" />
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Text message" required [(ngModel)]="formData.message" name="message"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send</button>
+          </form>
+          <div *ngIf="isLoading" class="loader">Sending...</div>
+          <div *ngIf="successMessage" class="success">{{ successMessage }}</div>
+          <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+        </div>
+  
+        <!-- Divider -->
+        <div class="divider"></div>
+  
+        <!-- Text Section -->
+        <div class="contact-text">
+          <p>
+            Get in Touch with AI Stage
+
+            Have questions about our AI models, need assistance with a download, or have suggestions for new features? We’d love to hear from you!
+            
+            Fill out our contact form, and we’ll get back to you as soon as possible.
+            
+            Stay connected with us on social media for the latest updates and releases!</p>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,110 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8); // Modern darker background
+  color: #ffffff; // White text color
+  padding: 1rem 0; // Space around the items
+  width: 100%; // Fills the whole width
+  position: fixed; // Navbar sticks to the top
+  top: 0;
+  left: 0;
+  z-index: 1000; // Makes sure the navbar is on top of everything
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Subtle shadow for modern look
+
+  // adds a container to the navbar to center the content
+  .navbar-container {
+    max-width: 1000px; // max width for the navbar
+    margin: 0 auto; // centrer the content
+    display: flex;
+    justify-content: space-between; // center the content
+    align-items: center; // centerts the content vertically
+  }
+
+  // Styling voor destyling for the title
+  .navbar-title {
+    font-family: 'Rock Salt', cursive; // Uses Rock Salt for the title
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .hamburger-menu {
+    display: none; // hide on bigger screens
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  // styling for the links
+  .navbar-links {
+    list-style: none;
+    display: flex; 
+    gap: 2rem; // Space between the links
+    margin: 0; // No margin for the links
+    padding: 0;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Iansui'; // Uses Iansui for the links
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: #28a745; // Modern green color for hover
+          transform: scale(1.1); // Subtle scale effect on hover
+        }
+
+        &.active {
+          font-weight: bold;
+          color: #28a745; // Green color for active links
+          border-bottom: 2px solid #28a745; // Green border for active links
+        }
+      }
+    }
+
+    &.active {
+      display: flex; // shows the links when the menu is open
+    }
+  }
+
+  // Responsive design
+  @media (max-width: 768px) {
+    .hamburger-menu {
+      display: block; // shows the hamburger menu on smaller screens
+    }
+
+    .navbar-container {
+      flex-direction: column; // puts the links beneath eachother
+      align-items: center; // center the links on smaller screens
+    }
+
+    .navbar-title {
+      position: static; // title is placed on top
+      margin-bottom: 1rem;
+    }
+
+    .navbar-links {
+      display: none; // hides the links when the menu is closed
+      flex-direction: column; // puts the links beneath eachother
+      gap: 1rem; // space between the links
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%; // links take the full width of the screen
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+      &.active {
+        display: flex; // shows the links when the menu is open
+      }
+    }
+  }
+}

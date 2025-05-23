@@ -1,0 +1,17 @@
+openai
+python-dotenv
+
+pip install -r requirements.txt
+
+
+Ga naar map waar model is opgeslagen:
+
+Maak virtuele omgeving:
+python -m venv venv
+
+Activeer virtuele omgeving:
+.\venv\Scripts\activate
+
+Install de openai library:
+pip install openai python-dotenv
+pip install websockets

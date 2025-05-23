@@ -1,0 +1,21 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iansui&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<nav class="navbar"> 
+  <div class="navbar-container">
+    <div class="navbar-title">AI Stage</div>
+    <button class="hamburger-menu" (click)="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="navbar-links" [class.active]="menuOpen">
+      <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+      <li><a routerLink="/download" routerLinkActive="active">Download</a></li>
+    </ul>
+  </div>
+</nav>
