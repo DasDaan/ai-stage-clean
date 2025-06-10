@@ -73,17 +73,19 @@ FAQ section
 
 🛠️ Technology Stack
 
-Frontend: [Angularjs]
-Backend: [Node.js, Python]
+Frontend: AngularJS
+Backend: Node.js, Python
 AI Models: Local GPT implementations
 Speech Processing: STT/TTS integration
-  STT: WhisperAI, from openai
-  TTS: Not yet implemented
+
+STT: WhisperAI (OpenAI)
+TTS: Not yet implemented
+
+
 Database: Not yet implemented
 
 🗺️ Roadmap
-** Still being planned, will be out soon (10 - 15 june 2025) **
-
+Still being planned, will be out soon (10 - 15 June 2025)
 🤝 Contributing
 We welcome contributions from developers, designers, and AI enthusiasts! This project started as a school assignment but has grown into something much more ambitious.
 How to Contribute
@@ -101,7 +103,6 @@ AI model optimization and integration
 Documentation and tutorials
 Testing and quality assurance
 
-
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 🙏 Acknowledgments
@@ -113,5 +114,5 @@ All contributors and supporters
 ⚠️ Disclaimer
 This project is under active development. Features and APIs may change as we work towards our vision. We recommend checking the documentation and releases regularly for updates.
 
-Made with ❤️ for the AI community <-- ChatGPT wanted this in the README, so blame him if you cringed hahah
+Made with ❤️ for the AI community
 AI-Stage: Bringing the power of AI to everyone, locally and privately.
