@@ -1,4 +1,4 @@
-AI-Stage
+# AI-Stage
 
 Making local AI accessible to everyone
 
