@@ -3,9 +3,9 @@
 Making local AI accessible to everyone
 
 AI-Stage is an ambitious project aimed at democratizing access to AI technology by providing a user-friendly platform for running AI models locally. Our vision is to create a comprehensive solution that combines local GPT models, speech-to-text (STT), text-to-speech (TTS), and intuitive interfaces - all while keeping your data private and secure on your own machine.
+
 🎯 Vision & Goals
 Primary Objectives
-
 **Accessibility:** Make AI technology approachable for users of all technical levels
 **Privacy:** Keep your conversations and data completely local and private
 **Customization:** Provide specialized AI models for different use cases
@@ -26,9 +26,7 @@ Target Features (Roadmap)
 - 💬 Community support and contact system
 
 📋 Current Status
-
 This project is currently in early development phase.
-
 What's available now
 
 ✅ Basic GPT model implementation
