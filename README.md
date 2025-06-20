@@ -14,16 +14,16 @@ Entertainment & Content Creation: Enable streamers, content creators, and entert
 
 Target Features (Roadmap)
 
-🤖 Multiple local GPT model support (basic and specialized)
-🎙️ Speech-to-Text integration for voice interactions
-🔊 Text-to-Speech for natural conversations
-💬 Advanced chat interfaces with conversation history
-✨ Prompt engineering tools and templates
-🎬 Content creator tools and streaming integrations
-🎮 Interactive AI characters and personalities
-📚 Comprehensive documentation and tutorials
-🛠️ Step-by-step setup guides for non-technical users
-💬 Community support and contact system
+- 🤖 Multiple local GPT model support (basic and specialized)
+- 🎙️ Speech-to-Text integration for voice interactions
+- 🔊 Text-to-Speech for natural conversations
+- 💬 Advanced chat interfaces with conversation history
+- ✨ Prompt engineering tools and templates
+- 🎬 Content creator tools and streaming integrations
+- 🎮 Interactive AI characters and personalities
+- 📚 Comprehensive documentation and tutorials
+- 🛠️ Step-by-step setup guides for non-technical users
+- 💬 Community support and contact system
 
 📋 Current Status
 This project is currently in early development phase.
