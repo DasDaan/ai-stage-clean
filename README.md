@@ -27,7 +27,7 @@ Target Features (Roadmap)
 
 📋 Current Status
 This project is currently in early development phase.
-What's Available Now
+What's available now
 
 ✅ Basic GPT model implementation
 ✅ Speech-to-Text (STT) functionality
