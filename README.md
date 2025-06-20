@@ -26,7 +26,9 @@ Target Features (Roadmap)
 - 💬 Community support and contact system
 
 📋 Current Status
+
 This project is currently in early development phase.
+
 What's available now
 
 ✅ Basic GPT model implementation
