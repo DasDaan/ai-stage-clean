@@ -9,7 +9,7 @@ Primary Objectives
 - **Accessibility:** Make AI technology approachable for users of all technical levels
 - **Privacy:** Keep your conversations and data completely local and private
 - **Customization:** Provide specialized AI models for different use cases
-- Entertainment & Content Creation: Enable streamers, content creators, and entertainers to integrate AI into their creative workflows
+- **Entertainment & Content Creation**: Enable streamers, content creators, and entertainers to integrate AI into their creative workflows
 - **Education:** Offer comprehensive guides and explanations about AI technology
 
 Target Features (Roadmap)
